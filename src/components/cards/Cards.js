@@ -1,7 +1,7 @@
 import "./Cards.css";
 import {categories} from "../../helpers/Data";
 
-// console.log(categories);
+console.log(categories);
 
 const Cards = () => {
     return (
