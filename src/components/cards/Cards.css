@@ -35,10 +35,6 @@
     filter: grayscale(0%);
 }
 
-.cards img:hover {
-    filter: grayscale(50%);
-}
-
 .card-over {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
