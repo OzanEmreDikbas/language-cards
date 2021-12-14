@@ -3,7 +3,7 @@ import logo from "../../assets/react.svg";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <img src={logo}></img>
+      <img src={logo} alt=""></img>
       {/* <a href="aboutus">ABOUT US</a>
       <a href="foryou">FOR YOU</a>
       <a href="services">SERVICES</a>

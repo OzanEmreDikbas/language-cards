@@ -34,9 +34,10 @@
 
 import "./Cards.css";
 import { categories } from "../../helpers/Data";
-import { useState } from "react";
+// import { useState } from "react";
 // console.log(categories);
-const Cards = ({ toggleShow, setIsvisible, isVisible }) => {
+
+const Cards = ({ toggleShow, isVisible }) => {
   // const handleClick = (e)=>{
   //   console.log("Click with handleClick from Header");
   return (
@@ -45,10 +46,7 @@ const Cards = ({ toggleShow, setIsvisible, isVisible }) => {
       <div className='card-container'>
         {categories.map((card, index) => {
           return (
-            <div
-              className='cards'
-              key={index}
-              onClick={() => setIsvisible(!isVisible)}>
+            <div className='cards' key={index} onClick={toggleShow}>
               {isVisible ? (
                 <div>
                   <img src={card.img} alt='' />
